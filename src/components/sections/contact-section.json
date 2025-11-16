@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_contact_sections",
+  "info": {
+    "displayName": "contact-section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "contactInfo": {
+      "type": "component",
+      "component": "sections.contact-info",
+      "repeatable": false
+    },
+    "showForm": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  },
+  "config": {}
+}

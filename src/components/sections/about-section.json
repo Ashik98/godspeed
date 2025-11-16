@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_about_sections",
+  "info": {
+    "displayName": "about-section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "servicePillars": {
+      "type": "component",
+      "component": "sections.service-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
