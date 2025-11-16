@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "copyrightText": {
+      "type": "text"
+    },
+    "links": {
+      "type": "component",
+      "component": "shared.links",
+      "repeatable": true
+    },
+    "social_links": {
+      "type": "component",
+      "component": "shared.social-media",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

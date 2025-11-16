@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_open_graphs",
+  "info": {
+    "displayName": "open-graph"
+  },
+  "options": {},
+  "attributes": {
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "text"
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "ogType": {
+      "type": "enumeration",
+      "default": "website ",
+      "enum": [
+        "website ",
+        "article  ",
+        "product",
+        "video ",
+        "book"
+      ]
+    },
+    "ogSiteName": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

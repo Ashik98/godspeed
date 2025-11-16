@@ -4,6 +4,48 @@
     "displayName": "seo"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string",
+      "default": "Focus keywords (comma-separated)"
+    },
+    "canonicalURL": {
+      "type": "string"
+    },
+    "metaRobots": {
+      "type": "enumeration",
+      "default": "index, follow ",
+      "enum": [
+        "index, follow ",
+        "noindex, follow",
+        "index, nofollow ",
+        "noindex, nofollow"
+      ]
+    },
+    "openGraph": {
+      "type": "component",
+      "component": "shared.open-graph",
+      "repeatable": false
+    },
+    "focusKeyphrase": {
+      "type": "string"
+    },
+    "breadcrumbTitle": {
+      "type": "string"
+    },
+    "noArchive": {
+      "type": "boolean",
+      "default": true
+    },
+    "previewSnippet": {
+      "type": "richtext"
+    }
+  },
   "config": {}
 }
